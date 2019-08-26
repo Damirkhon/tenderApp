@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'gtpf_gkrq256y5h&7qa@5&&%ou3mb1u%md5y4q$k!9&ts((gnv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['tendervb.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
